@@ -41,7 +41,7 @@
                     </form>
                     <div class="row"></div>
                     <div class="row">
-                        <div id="loader" class="col s8 offset-s2">
+                        <div id="loader" class="col s8 offset-s2 hide">
                             <div class="preloader-wrapper big active">
                                 <div class="spinner-layer spinner-green-only">
                                     <div class="circle-clipper left">
@@ -56,16 +56,19 @@
                                 </div>
                             </div>
                         </div>
-                        <div id="results" class="col s8 offset-s2">
+                        <div id="results" class="col s8 offset-s2 hide">
                             <h5 class="center-align">Results</h5>
                             <div class="input-field col s12">
-                                <input disabled value="Monthly Payment" id="monthly-payment" type="text" class="validate">
+                                <p>Monthly Payment</p>
+                                <input disabled value="" id="monthly-payment" type="text" class="validate">
                             </div>
                             <div class="input-field col s12">
-                                <input disabled value="Total Payment" id="total-payment" type="text" class="validate">
+                                <p>Total Payment</p>
+                                <input disabled value="" id="total-payment" type="text" class="validate">
                             </div>
                             <div class="input-field col s12">
-                                <input disabled value="Total Interest" id="total-interest" type="text" class="validate">
+                                <p>Total Interest</p>
+                                <input disabled value="" id="total-interest" type="text" class="validate">
                             </div>
                         </div>
                     </div>
